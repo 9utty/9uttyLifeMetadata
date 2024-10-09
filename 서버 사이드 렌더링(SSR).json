@@ -1,0 +1,7 @@
+{
+  "title": "서버 사이드 렌더링(SSR)",
+  "createAt": "2024-10-01T11:02:00.000Z",
+  "updateAt": "2024-10-02T12:03:00.000Z",
+  "tags": "Web,Frontend,SSR",
+  "content": "```yaml\ncleanUrl: \"/frontend/server-side-rendering\"\ntitle: \"서버 사이드 렌더링(SSR)\"\ndescription: \"서버 사이드 렌더링(SSR)은 서버에서 HTML을 생성하여 클라이언트에 전송하는 방식으로, 웹 콘텐츠가 많을 때 유리하며, 검색 엔진 최적화에도 효과적이다. SSR은 클라이언트 사이드 렌더링(CSR)보다 빠른 콘텐츠 렌더링 속도를 제공한다.\"\nogImage: \"https://opengraph.b-cdn.net/production/images/c75fa6d5-ce88-493d-89c1-57b7636d623c.png?token=ZQPb-u9y5Kec5UbWnfDtQMX6NHrbO3qZGAJEkjkWFj4&height=1200&width=1200&expires=33263845179\"\n```\n\n## 서비에서 렌더링? 클라이언트에서 렌더링?\n\n---\n\n- CSR, SSR 둘다 컨텐츠를 어디서 만들어 내느냐에 따라 포커싱이 맞추어져 있다\n- 컨텐츠를 서버에서 만들면 서버사이드렌더링, 클라이언트에서 만들면 클라이언트 사이드 렌더링이다\n\n\n## SSR을 언제 많이 쓸까?\n\n---\n\n- 보통의 경우 웹 컨텐츠가 많을때 많이 사용한다고 한다\n\n\n## SSR의 FLOW\n\n---\n\n- Server -> DB -> API -> HTML 이 플로우가 서버에서 이루어진다\n\n\n## SSR이 CSR보다 빠르다?\n\n---\n\n- SSR이 CSR보다 파워가 강력하다고 했다. 하지만 최초의 로딩은 CSR보다는 느릴 수 있다. 그 이유로는 SSR은 서버에서 그때그때 필요한 HTML을 그려서 내려주기 때문이다\n\n\n## SSR을 쓰는 이유는?\n\n---\n\n- 우리의 사이트는 User만 사용하는건 아니다. 크롤러(ex: 구글 서치 크롤러)도 우리의 사이트를 이용하기 때문에 CSR을 하는 작업에서는 DOM을 만들고 JS를 해석하는 시간과 Layout, Paint를 하고 이러한 작업들이 오래 걸린다고 볼 수 있다.하지만 SSR은 완성된 HTML을 보내주기때문에 JS를 따로 해석을 안해고 랜더플로우를 쭉 진행할 수 있다. 그렇기 때문에 컨텐츠를 랜더링하는 속도가 SSR이 더 빠르다\n\n\n## 검섹엔진은\n\n---\n\n- 검색엔진은 패스트사이트부터 우선노출을 한다\n- 검색엔진 최적화라는 말은 컨텐츠가 뜨는 속도를 빠르게 하는 작업을 말하는 것 같다\n\n\n\n\n---\n\n서버사이드 렌더링은 진짜 단순하게 서버에서 완성해서 보내준다(?)로 받아들여도 좋을 것 같다!\n\n---\n\n"
+}
