@@ -1,0 +1,7 @@
+{
+  "title": "정적 사이트 생성(SSG)",
+  "createAt": "2024-10-01T11:04:00.000Z",
+  "updateAt": "2024-10-02T12:03:00.000Z",
+  "tags": "Web,App,Frontend,SSG",
+  "content": "```yaml\ncleanUrl: \"/frontend/static-site-generation\"\ntitle: \"정적 사이트 생성(SSG)\"\ndescription: \"정적 사이트 생성(SSG)은 주로 변화가 적은 콘텐츠를 효율적으로 제공하기 위해 사용됩니다. SSG는 빌드 시점에 HTML을 생성하며, CDN에 배포되어 높은 트래픽을 처리할 수 있습니다. CSR, SSR, SSG의 특성을 이해하고 적절히 혼합하여 사용하는 것이 중요합니다.\"\nogImage: \"https://opengraph.b-cdn.net/production/images/c75fa6d5-ce88-493d-89c1-57b7636d623c.png?token=ZQPb-u9y5Kec5UbWnfDtQMX6NHrbO3qZGAJEkjkWFj4&height=1200&width=1200&expires=33263845179\"\n```\n\n## SSG\n\n- News나 상품상페이지 같은 경우는 컨텐츠가 생기면 자주 바뀌지 않기 때문에 매번 새로 만들어서 생성해줄 필요없이 완성된 페이지를 보여줄때 사용하는게 SSG이다.\n- 보통의 경우 SSG는 Blog나, News 페이지 같은 곳에서 사용하면 좋을 것 같다. 특히나 제품의 상세 페이지 같은 경우에는 특히나 한번 완성을 하면 잘 수정하지 않기 떄문에 상세페이지만 SSG로 만들고 그걸 불러오는 쪽은 SSR, CSR로 해도 안에 내용은 SSG로 만들어낸 페이지를 보여주는 쪽으로 할 수 있을것 같다\n## SSG는 언제 HTML을?\n\n- SSG는 build 시점에 HTML을 만든다.\n## SSG는 보통\n\n- SSG는 보통 CDN 서버에 배포해 두고, CDN의 주소를 내려주고 다운받게 한다.\n- 이때 사용하는 CDN 서비스의 경우 대부분 대용량 트래픽에 대한 용이성을 가지고 있다. 그렇기 때문에 SSG로 만들어진 사이트는 진짜 왠만해선 죽는 일은 없다고 한다.\n## 가장 중요한건?\n\n- CSR, SSR, SSG의 특성을 다 이해하고, 적절하게 섞어쓰는게 중요한 것 같다\n- 아직 SSG까지 섞어서 써본적은 없지만 꼭 해보고 싶은 작업이긴하다 ...\n"
+}
