@@ -1,0 +1,7 @@
+{
+  "title": "브라우저 렌더링",
+  "createAt": "2024-10-01T11:09:00.000Z",
+  "updateAt": "2024-10-02T12:03:00.000Z",
+  "tags": "Web,Frontend",
+  "content": "```yaml\ncleanUrl: \"/frontend/browser-rendering\"\ntitle: \"브라우저 렌더링\"\ndescription: \"브라우저 렌더링 과정은 HTML을 다운로드하고 파싱하여 DOM과 CSSOM을 생성한 후, Render Tree를 만들어 화면에 그리는 작업이다. 60fps 유지가 중요하며, Layout 과정은 성능에 영향을 미친다. Layout을 줄이고, transform 속성을 활용하면 성능을 개선할 수 있다\"\nogImage: \"https://opengraph.b-cdn.net/production/images/c75fa6d5-ce88-493d-89c1-57b7636d623c.png?token=ZQPb-u9y5Kec5UbWnfDtQMX6NHrbO3qZGAJEkjkWFj4&height=1200&width=1200&expires=33263845179\"\n```\n\n## 랜더링 과정\n\n### 처음 실행 FLOW\n\n- 처음 들어갔을때 브라우저는 HTML을 찾는다\n- HTML을 다운을 받고, 다운로드 받으면서 위에서 아래로 읽어나간다\n- 이렇게 다운로드 받은 HTML, CSS를 리딩(파싱)을 하는데 HTML을 파싱해서 생기는게 DOM이고, CSS를 파싱해서 만든게 CSSOM이다\n- DOM과 CSSOM을 결합해서 만드는게 Render Tree이다\n- Render Tree가 생성이 되면 이제 그리는 작업을 실행하게 된다\n### 그리는 작업\n\n- Layout을 실행한다(ReFlow)\n- Paint를 실행한다(RePaint)\n- 위에 Paint까지 끝나야 Render라고 한다. 화면에 모두 그려졌다라고 생각하면 될 것 같다!\n## 꼭 알아야할 것들\n\n### Web의 특징\n\n- Web에서는 60fps를 유지시켜줘야한다.\n- 60fps를 유지시킨다고 가정을 해보면, 1fps당 약 16ms가 나온다. 이때 16ms마다 layout, paint 등 모두 작업을 완료해야 60fps를 유지 시킬 수 있다\n### DOM\n\n- DOM을 변경하는 경우\n### Layout\n\n- Layout 과정은 생략이 가능하다고 했다. 이때 Layout의 과정을 생략시키려면 배치요소가 바뀌지 않았다면 레이아웃 과정을 생략 시킬 수 있다\n- Layout의 특징은 CPU를 많이 쓴다\n### Paint\n\n- Paint과정의 특징은 GPU를 많이 쓴다\n## 무엇보다 중요한 것!!\n\n- Layout은 줄일수록 좋다\n"
+}
