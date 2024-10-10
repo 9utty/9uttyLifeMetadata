@@ -1,5 +1,6 @@
 {
   "title": "Untitled Page",
-  "createAt": "2024-10-07T11:06:00.000Z",
-  "updateAt": "2024-10-07T11:06:00.000Z"
+  "createAt": "2024-10-10T11:58:00.000Z",
+  "updateAt": "2024-10-10T11:59:00.000Z",
+  "content": "```yaml\ntitle: \"Props Drilling에 대해\"\ndescription: \"내가 React의 Prop Drilling 문제를 이해하고, Context API, useReducer, Redux와 같은 다양한 상태 관리 방법을 비교하여 상황에 맞는 적절한 선택이 중요하다고 생각한다..\"\nogImage: \"https://opengraph.b-cdn.net/production/images/c75fa6d5-ce88-493d-89c1-57b7636d623c.png?token=ZQPb-u9y5Kec5UbWnfDtQMX6NHrbO3qZGAJEkjkWFj4&height=1200&width=1200&expires=33263845179\"\ncleanUrl: \"/fe-study/props-drilling\"\n```\n\n"
 }
