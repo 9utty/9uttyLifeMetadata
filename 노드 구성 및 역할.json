@@ -1,7 +1,7 @@
 {
   "title": "노드 구성 및 역할",
   "createAt": "2025-01-14T01:43:00.000Z",
-  "updateAt": "2025-01-14T02:47:00.000Z",
+  "updateAt": "2025-01-14T03:38:00.000Z",
   "tags": "개발자,OpenSearch,오픈서치",
   "content": "```yaml\ntitle: \"노드 구성 및 역할\"\ndescription: \"나는 노드 구성 및 역할에 대한 내용을 다루며, RDB와 OpenSearch의 용어 비교와 인덱스 구성을 설명하는 것이 중요하다고 생각한다.\"\nogImage: \"https://opengraph.b-cdn.net/production/images/c75fa6d5-ce88-493d-89c1-57b7636d623c.png?token=ZQPb-u9y5Kec5UbWnfDtQMX6NHrbO3qZGAJEkjkWFj4&height=1200&width=1200&expires=33263845179\"\ncleanUrl: \"/opensearch/node-role\"\n```\n\n# 노도 구성 및 역할\n\n---\n\n### RDB vs OpenSearch 용어 비교\n\n\n\n### 인덱스의 구성\n\n\n\n### 노드의 개념\n\n\n\n### 마스터 노드\n\n1. 클러스터의 핵심 관리자로 클러스터의 안정적인 운영을 책임지는 노드\n1. 클러스터 내 인덱스 생성 및 삭제, 노드 관리, 샤드 분배 등 중요한 결정을 내림\n1. 클러스터의 연속적인 서비스 제공을 위해 적어도 한개 이상의 마스터 노드가 필요\n1. 운영환경에서는 3개 이상의 마스터 노드를 두어 장애 발생 시 안정성을 보장하는 것을 권장\n1. 클러스터 상태를 모니터링 하며, 필요한 경우 마스터 노드 역할을 수행 할 수 있는 노드로의 전환을 관리\n\n\n\n\n"
 }
