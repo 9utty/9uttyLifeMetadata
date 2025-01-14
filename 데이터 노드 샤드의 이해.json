@@ -1,0 +1,7 @@
+{
+  "title": "데이터 노드 샤드의 이해",
+  "createAt": "2025-01-14T09:31:00.000Z",
+  "updateAt": "2025-01-14T09:38:00.000Z",
+  "tags": "개발자,OpenSearch,오픈서치",
+  "content": "```yaml\ntitle: \"데이터 노드 샤드의 이해\"\ndescription: \"\"\nogImage: \"https://opengraph.b-cdn.net/production/images/c75fa6d5-ce88-493d-89c1-57b7636d623c.png?token=ZQPb-u9y5Kec5UbWnfDtQMX6NHrbO3qZGAJEkjkWFj4&height=1200&width=1200&expires=33263845179\"\ncleanUrl: \"/opensearch/data-node-shard\"\n```\n\n# 데이터 노드 샤드의 이해\n\n---\n\n\n\n### 프라이머리 샤드와 레플리카 샤드\n\n1. 프라이머리 샤드\n1. 레플리카 샤드\n"
+}
